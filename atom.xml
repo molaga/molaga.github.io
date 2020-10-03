@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>נשאר רק למצוא שם</title>
+  <icon>https://molaga.com/icon.png</icon>
+  
+  <link href="https://molaga.com/atom.xml" rel="self"/>
+  
+  <link href="https://molaga.com/"/>
+  <updated>2020-10-03T16:58:50.272Z</updated>
+  <id>https://molaga.com/</id>
+  
+  <author>
+    <name>molaga</name>
+    <email>bar@molaga.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>מה זה Lighthouse ואיך אפשר לקבל בזה ציון 100</title>
+    <link href="https://molaga.com/%D7%9E%D7%94-%D7%96%D7%94-lighthouse-%D7%95%D7%90%D7%99%D7%9A-%D7%90%D7%A4%D7%A9%D7%A8-%D7%9C%D7%A7%D7%91%D7%9C-%D7%91%D7%96%D7%94-%D7%A6%D7%99%D7%95%D7%9F-100/"/>
+    <id>https://molaga.com/%D7%9E%D7%94-%D7%96%D7%94-lighthouse-%D7%95%D7%90%D7%99%D7%9A-%D7%90%D7%A4%D7%A9%D7%A8-%D7%9C%D7%A7%D7%91%D7%9C-%D7%91%D7%96%D7%94-%D7%A6%D7%99%D7%95%D7%9F-100/</id>
+    <published>2020-08-02T00:00:00.000Z</published>
+    <updated>2020-10-03T16:58:50.272Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/images/cdt-report.webp&quot; alt=&quot;לייט האוס. מקור: https://developers.google.com/web/tools/lighthouse&quot;&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    
+    <category term="lighthouse" scheme="https://molaga.com/tags/lighthouse/"/>
+    
+    <category term="טכנולוגיה" scheme="https://molaga.com/tags/%D7%98%D7%9B%D7%A0%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94/"/>
+    
+    <category term="SEO" scheme="https://molaga.com/tags/SEO/"/>
+    
+  </entry>
+  
+</feed>

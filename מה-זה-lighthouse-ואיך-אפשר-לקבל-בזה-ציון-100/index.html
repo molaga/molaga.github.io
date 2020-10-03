@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KLC6CNN');</script>
+    <!-- End Google Tag Manager -->
+
+
+  <meta name="description" content="לייט האוס. מקור: https://developers.google.com/web/tools/lighthouse
+Lighthouse הוא הכלי העדכני של גוגל נכון ל2020 שבעצם נותן “ציון” לאתר שלכם.למה המיל">
+
+
+<link rel="alternate" href="/atom.xml" title="נשאר רק למצוא שם" type="application/atom+xml">
+<meta name="theme-color" content="#a1d0f6">
+<title>מה זה Lighthouse ואיך אפשר לקבל בזה ציון 100 - נשאר רק למצוא שם</title>
+<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<link rel="shortcut icon" href="/images/me.png">
+
+<link rel="stylesheet" href="/css/style.css">
+
+<head>
+<body>
+<nav class="main-nav">
+	
+	    <a href="/">&rarr; ראשי</a>
+	
+	
+	<a class="cta" href="/atom.xml" data-no-instant>RSS</a>
+</nav>
+
+<section id="wrapper">
+    <article class="post">
+    <header>
+        
+            <h1>מה זה Lighthouse ואיך אפשר לקבל בזה ציון 100</h1>
+        
+        <div class="headline">02 אוג׳ 2020
+        
+        </div>
+    </header>
+</article>
+<section id="post-body"><p><img src="/images/cdt-report.webp" alt="לייט האוס. מקור: https://developers.google.com/web/tools/lighthouse"><span class="image-caption">לייט האוס. מקור: https://developers.google.com/web/tools/lighthouse</span></p>
+<p>Lighthouse הוא הכלי העדכני של גוגל נכון ל2020 שבעצם נותן “ציון” לאתר שלכם.<br>למה המילה הציון עם מרכאות? כי זה לא מדויק. מה זה בעצם הציון הזה וממה הוא מורכב? מה החשיבות שלו? איך אפשר להעלות אותו? בואו נצלול פנימה</p>
+<h2 id="מה-זה-Lighthouse"><a href="#מה-זה-Lighthouse" class="headerlink" title="מה זה Lighthouse"></a>מה זה Lighthouse</h2><p>אז לייט האוס (בשביל הנוחות נקרא לזה בעברית מעכשיו) זה הכלי למפתחים וגם לכאלה שלא, שניתן לגשת אליו דרך דפדפן כרום של גוגל, והוא בעצם מאפשר לבצע סריקה או יותר נכון אבחון לאתר שכרגע אתם נמצאים בו, וכן, אפשר להריץ את הבדיקה הזו על כל אתר, כל עוד יש לכם גישה אליו.<br>הכלי הזה הוא בעל רשיון קוד פתוח, וניתן להריץ את הבדיקה דרך מגוון רחב של אפשרויות -</p>
+<ul>
+<li>Chrome Devtools</li>
+<li>CLI (Command Line)</li>
+<li><a target="_blank" rel="noopener" href="https://www.npmjs.com/package/lighthouse">node module</a></li>
+<li>Web UI</li>
+</ul>
+<p>הכי נוח וקל להריץ את הבדיקות זה דרך הדפדפן עצמו, שאר האופציות יכולות לשמש אותנו בעולם האמיתי לצורך העניין כדי להריץ בדיקות אוטומטיות ולייצא דוחות במידה והציון של האתר שלי יורד<br>ניתן לבקר <a target="_blank" rel="noopener" href="https://developers.google.com/web/tools/lighthouse">כאן</a> ולקרוא עוד ישירות מהאתר הראשי שלהם.</p>
+<h2 id="ממה-מורכב-הציון-של-Lighthouse"><a href="#ממה-מורכב-הציון-של-Lighthouse" class="headerlink" title="ממה מורכב הציון של Lighthouse"></a>ממה מורכב הציון של Lighthouse</h2><h3 id="מהירות-Speed"><a href="#מהירות-Speed" class="headerlink" title="מהירות Speed"></a>מהירות Speed</h3><p>לייט האוס בעצם בודק כמה זמן לוקח לאתר להיטען. כל דבר אשר יכול להאט אותו בדרך, החל ממשאב שנדרש על מנת לטעון את האתר (יכול להיות סקריפט, או עיצוב ואפילו תמונה) אשר מאט את הטעינה של האתר, גורם להורדה של ניקוד בקטגוריה של המהירות</p>
+<h3 id="קידום-אתרים-אורגני-SEO"><a href="#קידום-אתרים-אורגני-SEO" class="headerlink" title="קידום אתרים אורגני SEO"></a>קידום אתרים אורגני SEO</h3><p>לכל מבנה של אתר אינטרנט, יש קווים מנחים אשר עוזרים למנועי חיפוש לאנדקס (לסרוק ולקטלג) את האתר שלכם. כמובן שהקווים המנחים הללו אינם המלצה, וכל אי עמידה בהם, פשוט מפחיתה נקודות. לדוגמה - שימוש בתגיות meta אשר עוזרות להבין מה הכותרת של הדף אינטרנט, ועד לשימוש במבנה היררכי נכון של האלמנטים בדף, לדוגמה שימוש בarticle במקום div איפה שצריך</p>
+<h3 id="נגישות-Accessibility"><a href="#נגישות-Accessibility" class="headerlink" title="נגישות Accessibility"></a>נגישות Accessibility</h3><p>בשנים האחרונות, יש עלייה חדה מאוד במודעות ובהנגשה של אתרים קיימים ובעיקר חדשים לבעלי מוגבלויות. וגוגל שם כדי לוודא שאתם עומדים בקריטריונים ולא מזלזלים בזה.<br>בעבר היה מורכב לטפל בבעיות כאלו ואחרות, בעיקר כי זה נבע במילים כמו - הטפוגרפיה שלך לא מספיק מרווחת, או שהניגודיות לא מספיק טובה בין הצבעים. אז אני חייב לציין שמצד אחד גוגל מאוד קטנונית בהערות שקשורות לניקוד, אבל, וזה אבל גדול - היא מספקת כלים מעולים שעוזרים לנו להבין, ללמוד ולתקן את הפערים הללו.</p>
+<h3 id="התרגול-הטוב-ביותר-Best-Practice"><a href="#התרגול-הטוב-ביותר-Best-Practice" class="headerlink" title="התרגול הטוב ביותר Best Practice"></a>התרגול הטוב ביותר Best Practice</h3><p>האמת שלא מצאתי איך רושמים את זה בעברית, אבל בכל מקרה, הציון הזה נקבע מהדברים שכבר נחשבים לקונצנזוס בתעשייה וזה כמעט חריג לא ליישם אותם. דוגמה טובה זה השימוש ב-HTTPS, אפשר לוותר למעשה על ה-SSL ולהיות עוד אחד מרוב האתרים בעולם, אבל, וזה אבל גדול, הדפדפנים הגדולים כבר הגדילו לעשות והם פשוט מתריעים בכל פעם שגולש נכנס לאתר כזה שהוא לא מאובטח, בין אם זה מנעול אדום פתוח, או הודעות כאלה ואחרות שהטופס שממלאים הוא לא מאובטח, באמת שזה לא נעים.</p>
+<h3 id="PWA-Progressive-Web-App"><a href="#PWA-Progressive-Web-App" class="headerlink" title="PWA (Progressive Web App) *"></a>PWA (Progressive Web App) *</h3><p>נכון לכתיבת הפוסט (אעדכן במידה ויהיה חדש), הקטגוריה הזו היא לא חובה, אלא רשות. לא יורידו לכם נקודות במידה ואין לכם PWA, אבל אני שניה אסביר מה זה המושג התמהוני הזה.<br>Progressive Web App, זוהי בעצם אפשרות להפוך כל אתר אינטרנט, לאפליקציה שניתן לשמור אותה על המחשב או בסמארטפון.</p>
+<p>לא ארחיב יותר מדי כי יש פוסט בהתהוות שמסביר על כך לפרוטרוט, אבל יש שיגידו שזה העתיד, ויש אותי שכרגע יכול להגיד שזה עדיין מוגבל באפשרויות, אבל בגדול המטרה היא לייתר את הפיתוח של אפליקציות נייטיב ולהשתמש בזה במקום (הרי יש לך כבר אתר אינטרנט, אז למה לא להפוך אותו בקלות לאפליקציה??)</p>
+<h2 id="על-מה-משפיע-הציון-בLighthouse"><a href="#על-מה-משפיע-הציון-בLighthouse" class="headerlink" title="על מה משפיע הציון בLighthouse"></a>על מה משפיע הציון בLighthouse</h2><p>אוקי, אז אחרי שהבנו מה זה, וממה מורכב הציון, בואו נחשוב על זה רגע, למה צריך את זה? הרי אף אחד לא יודע איך עובד האלגוריתם של גוגל ומה ההשפעה של הציון הזה על הדירוג של האתר שלי, אבל אי אפשר להתכחש לעובדה שזה מוצר מבית גוגל, ויש שם פיזית תחום של SEO, אז מכאן ולחשוב על התרומה של הציון הזה לבין הדירוג של האתר שלי, המרחק קצר מאוד.<br>גם במידה ואני בן אדם די מוזר ולא מעניין אותי איפה ממוקדם האתר שלי, עדיין, עצם העובדה שיש לי תמריץ לשפר את המהירות, נגישות, ולהתאים את האתר שלי לעולם האמיתי, מבחינתי זה שווה הכל.</p>
+<ul>
+<li>שאלת תם - מה הסיכוי שאני כבר אחליט לשפר את הציונים שלי בכל המדדים, אבל אשאיר את PWA כבוי? אסתכן ואחשוב שזה לא משפיע? כך חברים, מקדמים מוצרים :)</li>
+</ul>
+<h2 id="לסיכום"><a href="#לסיכום" class="headerlink" title="לסיכום"></a>לסיכום</h2><p>לייט האוס, מעבר להיותו כלי שכנראה יגרום לגוגל לחבב את האתר שלכם, הוא בעיקר כלי עוצמתי שעוזר להבין דברים מאוד חיוניים, כמו כמה האתר שלכם מהיר, כמה הוא מונגש לבעלי מוגבלויות, כמה מאובטח ועוד.<br>התוצאה שלי לפניכם, אתם יכולים אפילו לנסות בעצמכם להריץ בדיקה על הפוסט הזה, אבל זה מגיע עם דיסקליימר קטן - התוצאה שלפניכם נעשה כשהפוסט לא כלל את התמונות. אתם כנראה שואלים למה? אז, בגדול, אפשר גם להגיע ל100 עגול בכל המדדים, אבל זה דורש מעבדכם הנאמן לעשות מיקרו-אופטימיזציות על מנת לתמוך בכל המצבים (במקרה של התמונות, זה להנגיש אותם גם בגדלים קטנים יותר לצרכני המובייל)</p>
+<p><img src="/images/lighthouse-test.png" alt="תוצאת לייט האוס"><span class="image-caption">תוצאת לייט האוס</span></p>
+<p>העיגול הימני ביותר שבתמונה - PWA, כמו שכבר אנחנו יודעים, הכוונה לגרסה אפליקטיבית של האתר שלכם, שיהיה ניתן לשמור אותו על הדסקטופ/סמארטפון, וכדי להפעיל את זה צריך לצרף בסך הכל קובץ קטן עם הגדרות, וזה כמובן מעלה את הציון עוד. לא עשיתי זאת מכיוון שאני לא מעוניין בשלב זה לתמוך בגרסה אפליקטיבית, יש לזה השלכות שעליהן נלמד בפוסטים נוספים בתחום.</p>
+<hr>
+</section>
+    
+        
+        <div class="footline">
+            <a href="/tags/lighthouse/">lighthouse</a>, <a href="/tags/טכנולוגיה/">טכנולוגיה</a>, <a href="/tags/SEO/">SEO</a>
+        </div>
+    
+
+    <footer id="post-meta" class="clearfix">
+        <a href="/">
+        <img alt="me" class="avatar" src="https://www.gravatar.com/avatar/a53e1ebc42eebc1396c05e96e7693b0f?s=36">
+        <div>
+            <span class="dark">נשאר רק למצוא שם</span>
+            <span></span>
+        </div>
+        </a>
+        <section id="sharing">
+            <a title="Share to Twitter" class="twitter" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=https://molaga.com/%D7%9E%D7%94-%D7%96%D7%94-lighthouse-%D7%95%D7%90%D7%99%D7%9A-%D7%90%D7%A4%D7%A9%D7%A8-%D7%9C%D7%A7%D7%91%D7%9C-%D7%91%D7%96%D7%94-%D7%A6%D7%99%D7%95%D7%9F-100/ - מה זה Lighthouse ואיך אפשר לקבל בזה ציון 100 @"><span class="icon-twitter">ציוץ</span></a>
+            <a title="Share to Facebook" class="facebook" href="#" onclick="
+                window.open(
+                  'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+                  'facebook-share-dialog',
+                  'width=626,height=436');
+                return false;"><span class="icon-facebook-sign">שיתוף</span>
+            </a>
+        </section>
+    </footer>
+
+
+
+	<footer id="footer">
+	<div id="social">
+		<p class="small">&copy; molaga | פועל באמצעות Hexo</p>
+	</div>
+</footer>
+
+</section>
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/instantclick/3.1.0/instantclick.min.js" data-no-instant></script>
+	<script data-no-instant>
+		InstantClick.init('mousedown');
+	</script>
+
+
+
+
+</body>
+</html>
